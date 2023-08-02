@@ -9,7 +9,7 @@ function Card() {
     <div className='p-2 bg-slate-50 dark:bg-slate-600 text-red-950 dark:text-white shadow-xl md:min-h-[900px]'>
         <Image src={blancura} alt='LVIS Blancura' className='w-full'/>
         <div className='px-3 mb-6'>
-            <h5 className='text-4xl font-medium mt-8 mb-9 text-center'>LVIS Blancura</h5>
+            <h5 className='text-4xl font-medium mt-8 mb-9 text-center [text-shadow:_4px_1px_2px_rgb(0_0_0_/_40%)]' >LVIS Blancura</h5>
             <div className='flex justify-between px-2 text-sm md:text-base'>
                 <div className='flex flex-col items-center mb-5'>
                     <FaUmbrellaBeach className='text-3xl md:text-4xl'/>

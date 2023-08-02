@@ -10,7 +10,7 @@ function VillageCard() {
     <div className='p-2 bg-slate-50 dark:bg-slate-600 shadow-xl md:min-h-[900px] text-red-950 dark:text-white'>
         <Image src={village} alt='LVIS Village' className='w-full'/>
         <div className='px-3 mb-6'>
-            <h5 className='text-4xl font-medium mt-8 mb-9 text-center'>LVIS Village</h5>
+            <h5 className='text-4xl font-medium mt-8 mb-9 text-center [text-shadow:_4px_1px_2px_rgb(0_0_0_/_40%)]'>LVIS Village</h5>
             <div className='flex justify-between mx-2 text-sm md:text-base'>
                 <div className='flex flex-col items-center mb-5'>
                     <MdFamilyRestroom className='text-3xl md:text-4xl'/>
