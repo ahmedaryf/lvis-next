@@ -1,7 +1,7 @@
 import React from 'react'
 import {FaFacebook, FaInstagram, FaYoutube} from 'react-icons/fa'
 import {SiYoutubemusic} from 'react-icons/si'
-import {RiInstagramFill} from 'react-icons/Ri'
+import {RiInstagramFill} from 'react-icons/ri'
 
 function Footer() {
   return (
@@ -18,9 +18,9 @@ function Footer() {
         
         <div className='me-6 mt-10 md:mt-0'>
             <h5 className='text-2xl mb-3 font-medium'>Contact Us</h5>
-            <p>Email: info@lvishotels.com</p>
-            <p>Tel: +960 9868068 | +960 7793646</p>
-            <p>WhatsApppppp: +960 9114552 | +960 7793646</p>
+            <p className='text-sm md:text-base'>Email: info@lvishotels.com</p>
+            <p className='text-sm md:text-base'>Tel: +960 9868068 | +960 7793646</p>
+            <p className='text-sm md:text-base'>WhatsApppppp: +960 9114552 | +960 7793646</p>
         </div>
         </div>
         <h5 className='text-center mt-6 pb-6 font-medium'>© 2023 LVIS. All rights reserved.</h5>

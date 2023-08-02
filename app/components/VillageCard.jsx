@@ -11,17 +11,17 @@ function VillageCard() {
         <Image src={village} alt='LVIS Village' className='w-full'/>
         <div className='px-3 mb-6'>
             <h5 className='text-4xl font-medium mt-8 mb-9 text-center'>LVIS Village</h5>
-            <div className='flex justify-between mx-6'>
+            <div className='flex justify-between mx-2 text-sm md:text-base'>
                 <div className='flex flex-col items-center mb-5'>
-                    <MdFamilyRestroom size={35}/>
+                    <MdFamilyRestroom className='text-3xl md:text-4xl'/>
                     <h5 className=''>Family friendly</h5>
                 </div>
                 <div className='flex flex-col items-center mb-5'>
-                    <GiCommercialAirplane size={35}/>
+                    <GiCommercialAirplane className='text-3xl md:text-4xl'/>
                     <h5 className=''>Airport Transfer</h5>
                 </div>
                 <div className='flex flex-col items-center mb-5'>
-                    <AiFillDollarCircle size={35}/>
+                    <AiFillDollarCircle className='text-3xl md:text-4xl'/>
                     <h5 className=''>Budget friendly</h5>
                 </div>
             </div>

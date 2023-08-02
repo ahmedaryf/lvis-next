@@ -10,17 +10,17 @@ function Card() {
         <Image src={blancura} alt='LVIS Blancura' className='w-full'/>
         <div className='px-3 mb-6'>
             <h5 className='text-4xl font-medium mt-8 mb-9 text-center'>LVIS Blancura</h5>
-            <div className='flex justify-between mx-6'>
+            <div className='flex justify-between px-2 text-sm md:text-base'>
                 <div className='flex flex-col items-center mb-5'>
-                    <FaUmbrellaBeach size={35}/>
+                    <FaUmbrellaBeach className='text-3xl md:text-4xl'/>
                     <h5 className=''>Beachfront</h5>
                 </div>
                 <div className='flex flex-col items-center mb-5'>
-                    <GiCommercialAirplane size={35}/>
+                    <GiCommercialAirplane className='text-3xl md:text-4xl'/>
                     <h5 className=''>Airport Transfer</h5>
                 </div>
                 <div className='flex flex-col items-center mb-5'>
-                    <GiMeal size={35}/>
+                    <GiMeal className='text-3xl md:text-4xl'/>
                     <h5 className=''>Restaurant</h5>
                 </div>
             </div>
