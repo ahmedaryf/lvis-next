@@ -6,10 +6,10 @@ import {GiCommercialAirplane, GiMeal} from 'react-icons/gi'
 
 function Card() {
   return (
-    <div className='p-2 bg-slate-50 dark:bg-slate-600 shadow-xl'>
+    <div className='p-2 bg-slate-50 dark:bg-slate-600 text-red-950 dark:text-white shadow-xl md:min-h-[900px]'>
         <Image src={blancura} alt='LVIS Blancura' className='w-full'/>
-        <div>
-            <h5 className='text-3xl font-medium mt-4 mb-9 text-center'>LVIS Blancura</h5>
+        <div className='px-3 mb-6'>
+            <h5 className='text-4xl font-medium mt-8 mb-9 text-center'>LVIS Blancura</h5>
             <div className='flex justify-between mx-6'>
                 <div className='flex flex-col items-center mb-5'>
                     <FaUmbrellaBeach size={35}/>
