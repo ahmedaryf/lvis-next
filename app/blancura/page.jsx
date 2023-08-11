@@ -9,7 +9,7 @@ export default function Blancura() {
     <main className='min-h-[90vh]'>
     <div className='h-32'></div>
         <Framer>
-            <h1 className='text-4xl md:text-7xl text-center font-bold text-red-950 [text-shadow:_6px_2px_4px_rgb(0_0_0_/_40%)]'>LVIS Blancura</h1>
+            <h1 className='text-4xl md:text-7xl text-center font-bold text-red-950 dark:text-white [text-shadow:_6px_2px_4px_rgb(0_0_0_/_40%)]'>LVIS Blancura</h1>
         </Framer>
             <div className='grid grid-cols-1 md:grid-cols-2 '>
                 <div className='w-full relative'>
