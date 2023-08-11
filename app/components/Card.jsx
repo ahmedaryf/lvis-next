@@ -31,3 +31,5 @@ function Card() {
 }
 
 export default Card
+
+// <h1 class="[text-shadow:_0_1px_0_var(--tw-shadow-color)]">Hello</h1>
