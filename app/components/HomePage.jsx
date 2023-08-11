@@ -20,7 +20,7 @@ function HomePage() {
               <Card />
             </div>
           </Framer>
-          <Framer delay={1}>
+          <Framer delay={.7}>
             <div className=''>
               <VillageCard />
             </div>
