@@ -14,13 +14,13 @@ export default function Blancura() {
             <div className='grid grid-cols-1 md:grid-cols-2 '>
                 <div className='w-full relative'>
                 <Framer delay={.3}>
-                    <Image className='w-full p-4 rounded-3xl' src={blancura}  alt='LVIS Blancura' />
+                    <Image className='w-full p-4 rounded-3xl' src={blancura}  alt='LVIS Blancura' placeholder='blur' width={100} height={100} priority />
                 </Framer>
                     <h5 className='text-2xl md:text-4xl text-white font-bold text-center absolute top-[85%] left-[50%] -translate-x-[50%] -translate-y-[50%] [text-shadow:_6px_2px_4px_rgb(0_0_0_/_40%)]'>Bedroom</h5>
                 </div>
                 <div className='w-full relative'>
                 <Framer delay={.5}>
-                    <Image className='w-full p-4 rounded-3xl' src={blancuraBathroom}  alt='LVIS Blancura' />
+                    <Image className='w-full p-4 rounded-3xl' src={blancuraBathroom}  alt='LVIS Blancura' placeholder='blur' width={100} height={100} priority />
                 </Framer>
                     <h5 className='text-2xl md:text-4xl text-white font-bold text-center absolute top-[85%] left-[50%] -translate-x-[50%] -translate-y-[50%] [text-shadow:_6px_2px_4px_rgb(0_0_0_/_40%)]'>Bathroom</h5>
                 </div>

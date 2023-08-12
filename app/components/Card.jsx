@@ -8,7 +8,7 @@ import Link from 'next/link'
 function Card() {
   return (
     <div className='flex flex-col items-center p-2 bg-slate-50 dark:bg-slate-600 text-red-950 dark:text-white shadow-xl md:min-h-[900px]'>
-        <Image src={blancura} alt='LVIS Blancura' className='w-full'/>
+        <Image src={blancura} alt='LVIS Blancura' className='w-full' placeholder='blur' width={100} height={100} priority/>
         <div className='px-3 mb-6'>
             <h5 className='text-4xl font-medium mt-8 mb-9 text-center [text-shadow:_4px_1px_2px_rgb(0_0_0_/_40%)]' >LVIS Blancura</h5>
             <div className='flex justify-between px-2 text-sm md:text-base'>

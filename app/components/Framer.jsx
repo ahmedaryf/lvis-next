@@ -7,9 +7,9 @@ export default function Framer({children, delay}) {
     <AnimatePresence>
         <motion.div
           key={1}
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0 }}
+          initial={{ opacity: 0, clipPath: "polygon(50% 0, 50% 0, 50% 100%, 50% 100%)"}}
+          animate={{ opacity: 1, clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)"}}
+          exit={{ opacity: 0, clipPath: "polygon(50% 0, 50% 0, 50% 100%, 50% 100%)"}}
           transition={{
             duration: 1,
             delay: delay
